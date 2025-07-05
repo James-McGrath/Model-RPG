@@ -12,7 +12,7 @@ dataset = dataset.shuffle(seed=42)
 
 # === Load Tokenizer ===
 model_id = "teknium/OpenHermes-2.5-Mistral-7B"
-tokenizer = AutoTokenizer.from_pretrained(model_id)
+tokenizer = AutoTokenizer.from_pretrained(model_id, use_fast=False)
 tokenizer.pad_token = tokenizer.eos_token
 
 base_model = AutoModelForCausalLM.from_pretrained(
