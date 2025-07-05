@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=finetune
 #SBATCH --partition=compute
-#SBATCH --gres=gpu:1
+#SBATCH --gres=gpu:a100:1
 #SBATCH --mem=80G
 #SBATCH --cpus-per-task=8
 #SBATCH --time=48:00:00
