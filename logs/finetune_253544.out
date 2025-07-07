@@ -1,0 +1,7 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+Traceback (most recent call last):
+  File "/home/jmcgrath/Model-RPG/PEFT-Finetuning.py", line 1, in <module>
+    from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments, Trainer, DataCollatorForLanguageModeling
+ModuleNotFoundError: No module named 'transformers'

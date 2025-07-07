@@ -1,6 +1,11 @@
 ---
 base_model: teknium/OpenHermes-2.5-Mistral-7B
 library_name: peft
+pipeline_tag: text-generation
+tags:
+- base_model:adapter:teknium/OpenHermes-2.5-Mistral-7B
+- lora
+- transformers
 ---
 
 # Model Card for Model ID
@@ -199,4 +204,5 @@ Carbon emissions can be estimated using the [Machine Learning Impact calculator]
 [More Information Needed]
 ### Framework versions
 
+- PEFT 0.16.0
 - PEFT 0.15.2
