@@ -10,5 +10,5 @@
 
 # === Run evaluation script using large model ===
 python eval.py \
-  --judge meta-llama/Meta-Llama-3-70B-Instruct \
+  --judge CohereLabs/c4ai-command-r-plus-08-2024 \
   --input model-responses.csv
