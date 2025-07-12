@@ -1,0 +1,7 @@
+🔍 Loading judge model: Qwen/Qwen2.5-72B-Instruct
+📄 Reading input: model-responses.csv
+🧠 Evaluating row 1/3
+🧠 Evaluating row 2/3
+🧠 Evaluating row 3/3
+💾 Saving output to: qwen_qwen2.5-72b-instruct-evaluation-20250712-133309.csv
+✅ Done!
