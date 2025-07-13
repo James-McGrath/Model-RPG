@@ -1,0 +1,7 @@
+🔍 Loading judge model: meta-llama/Llama-3.3-70B-Instruct
+📄 Reading input: model-responses.csv
+🧠 Evaluating row 1/3
+🧠 Evaluating row 2/3
+🧠 Evaluating row 3/3
+💾 Saving output to: meta-llama_llama-3.3-70b-instruct-evaluation-20250713-002350.csv
+✅ Done!
